@@ -1,0 +1,105 @@
+{
+  "slug": "mixerclear",
+  "box": 16,
+  "date": "2026-10-09",
+  "title": "MixerClear",
+  "question": "How does a mixer grinder work?",
+  "hook": "A motor that spins 20,000 times a minute, blades whose tips hit 200 km/h, and ribs that stop your chutney riding round the jar. Take India's favourite kitchen machine apart in 3D.",
+  "thumbText": "HOW A MIXIE WORKS",
+  "field": "machines",
+  "minutes": 12,
+  "tags": [
+    "mixer grinder",
+    "mixie",
+    "blender",
+    "universal motor",
+    "blades",
+    "vortex",
+    "kitchen",
+    "India",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A fast motor under a jar of blades",
+      "text": "A mixer grinder is a heavy base holding an upright electric motor, with a jar on top. The jar's blades sit on a short shaft through a sealed bushing, and a rubber coupler links them to the motor when you set the jar down. A speed switch, a cooling fan, suction feet and an overload switch complete it."
+    },
+    {
+      "title": "A motor that runs on AC because both halves flip",
+      "text": "The universal motor sends the same current through its field coils and, via carbon brushes and a commutator, through its spinning armature. When the mains flips 100 times a second, both magnets flip together, so the push never changes direction. It races at about 20,000 rpm empty and slows under load while drawing more current."
+    },
+    {
+      "title": "Tiny blades, racing-car tip speed",
+      "text": "The tip speed of a blade is v = ω × r. At 18,000 rpm a tip 3 cm from the centre moves at about 57 m/s, roughly 200 km/h. The blades smash and shear the food, and bits get smaller fast at first, then more slowly, since each step finer needs more energy."
+    },
+    {
+      "title": "Ribs stop the whole load spinning",
+      "text": "On its own, the load swirls round with the blade, forming a vortex, and the blade slips through food that is already moving. Ribs on the jar wall break the swirl into an up-and-down loop, so food keeps falling back into the blades. A little water, or pulse mode, helps thick loads flow back."
+    },
+    {
+      "title": "Every watt ends up as heat",
+      "text": "Current heats the windings, and the work done on the food heats the food: Q = P × t. A heavy load draws more current, and heating grows with current squared, so mixers are rated for short runs. A bimetal overload switch opens if the windings get too hot, and you reset it under the base."
+    },
+    {
+      "title": "A gram of imbalance shakes it hard",
+      "text": "A lump spinning with the blade pulls on the machine with F = m r ω². One gram at the blade tip at 17,000 rpm pulls with about 110 N, more than three times the mixer's weight, so it walks. Suction feet, a secure lid and the max line keep it safe."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Universal motor",
+      "def": "A series-wound motor with brushes and a commutator that runs on AC or DC. It is small, light and very fast."
+    },
+    {
+      "term": "Commutator",
+      "def": "A ring of copper bars on the motor shaft. The carbon brushes touch different bars as it turns, switching the armature coils."
+    },
+    {
+      "term": "Back-voltage",
+      "def": "The voltage a spinning armature makes against the mains. The faster it spins, the less current can flow."
+    },
+    {
+      "term": "Tip speed",
+      "def": "How fast the end of a blade moves: v = ω × r, turning speed times radius."
+    },
+    {
+      "term": "Vortex",
+      "def": "A swirling mass of liquid whose surface dips in the middle and rises at the edge."
+    },
+    {
+      "term": "Flow breakers",
+      "def": "Ribs on the inside of a jar that stop the load swirling round with the blade."
+    },
+    {
+      "term": "Overload protector",
+      "def": "A heat-sensitive bimetal switch that cuts the motor's power when its windings get too hot."
+    },
+    {
+      "term": "Duty cycle",
+      "def": "How long a machine may run before it must rest, such as 30 seconds on and one minute off."
+    },
+    {
+      "term": "Unbalance",
+      "def": "Mass that is not spread evenly round a spinning part, so it pulls the machine round in a circle."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "mixerclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
